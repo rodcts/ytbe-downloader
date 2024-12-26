@@ -1,0 +1,21 @@
+{
+  "name": "ytbe-downloader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:failures": "jest --onlyFailures",
+    "test:verbose": "jest --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "^4.15.8"
+  }
+}
