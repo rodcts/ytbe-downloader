@@ -16,6 +16,6 @@
     "jest": "^29.7.0"
   },
   "dependencies": {
-    "@distube/ytdl-core": "^4.15.8"
+    "@distube/ytdl-core": "^4.15.9"
   }
 }

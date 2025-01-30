@@ -9,15 +9,8 @@ const downloadVideo = async (url, filePath) => {
     const fileStream = fs.createWriteStream(filePath);
 
     // Aguardar o término do download ou erro usando uma Promise
-    await videoStream
-      .pipe(fileStream)
-      .then(() => {
-        return { videoStream, fileStream, filePath };
-      })
-      .catch((error) => {
-        console.error(error);
-        return false;
-      });
+    await videoStream.pipe(fileStream);
+    return { videoStream, fileStream, filePath };
   } catch (error) {
     console.log(error);
     return false;

@@ -1,4 +1,5 @@
 /node_modules/
-/downloads/
+*/downloads/*
 /coverage/
 package-lock.json
+.DS_**
